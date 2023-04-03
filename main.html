@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    </meta>
+    <title>Tech Mind with BB</title>
+    <link rel="stylesheet" href="styles.css" </head>
+
+    <body>
+        <h1>My name is Branden Beardsley. I am looking for my first role as a Software Engineer.</h1>
+        <p>Please fill out this form to contact me about open roles on your team</p>
+        <form method="post" action="branden.beardsley@gmail.com">
+            <fieldset>
+                <label for="first-name">Enter Your First Name: <input type="text" id="first-name" required></input></label>
+                <label for="last-name">Enter Your Last Name: <input type="text" id="last-name" required></input></label>
+                <label for="email">Enter Your Email: <input type="email" id="email" required></input></label>
+                <label for="organization-name">Enter Your Organization's Name: <input type="text" id="organization-name"
+                    required></input></label>
+            </fieldset>
+            <fieldset>
+                <label for="job-title"> Enter the Job Title You Are Recruiting For: <input type="text" required
+                    id="job-title"></input></label>
+            </fieldset>
+            <fieldset>
+                <label for="compensation-range"> Select the Compensation Range:
+                <select id="compensation-range">
+                    <option value="">$80,000 - $95,000</option>
+                    <option value="1">$95,000 - $110,000</option>
+                    <option value="2">$110,000 - $130,000</option>
+                    <option value="3">$130,000+</option>
+                </select>
+        </fieldset>
+        <fieldset>
+            <label for="job-description">Optional: Upload a Job Description: <input type="file"
+                    id="job-description"></input></label>
+            </fieldset>
+            <fieldset>
+                <label>How did you first learn about my candidacy for [position]? </label>
+                <select>
+                <option value="">Linkedin</option>
+                <option value="1">YouTube Channel</option>
+                <option value="2">Portfolio Website</option>
+                <option value="3">Other</option>
+            </select>
+            </fieldset>
+            <input type="submit" value="Submit"></input>
+        </form>
+    </body>
+
+</html>
